@@ -24,6 +24,15 @@ let ratio = 0
   )
     }
     else{
+  return (
+    <>
+      <div className='data'>
+       <input type='text' placeholder="{coffe}" className='coffe'/> 
+       <input type='text' placeholder="{watter}" className='watter'/> 
+       <input type='text' placeholder="{bloom_ratio}" className='bloom'/> 
+      </div>
+    </>
+  )
     }
 }
 export default App
